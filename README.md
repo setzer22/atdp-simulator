@@ -8,9 +8,13 @@ A pre-compiled jar file is available in the `./bin` directory. Otherwise, refer 
 
 ### Manually building
 
-In order to build this project, the `leiningen` build tool is required. Once installed, the command `lein uberjar` will generate an executable jar file with all necessary dependencies in the `./target/uberjar` folder.
+In order to build this project, the `leiningen` and `maven` build tools are required. First, install the local `atdplib-model` jar with:
 
-```lein uberjar```
+```
+sh install-local-jars.sh
+```
+
+Once installed, the command `lein uberjar` will generate an executable jar file with all necessary dependencies in the `./target/uberjar` folder.
 
 ## Usage
 
