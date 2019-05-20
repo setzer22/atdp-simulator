@@ -49,12 +49,18 @@
   ([A, B & rest]
    (apply random-merge (random-merge A B) rest))
   ([A, B]
-   (let [positions (vec (random-sorted-list (count B) (count A)))]
-     (reduce
-      (fn [merged, i]
-        (insert-at-v merged, (+ i (positions i)), (A i)))
-      B
-      (range (count A))))))
+   (cond
+     (not (seq A)) B
+     (not (seq B)) A
+     :else
+     (let [positions (vec (random-sorted-list (count B) (count A)))
+           A (vec A)
+           B (vec B)]
+       (reduce
+        (fn [merged, i]
+          (insert-at-v merged, (+ i (positions i)), (A i)))
+        B
+        (range (count A)))))))
 
 
 (comment
