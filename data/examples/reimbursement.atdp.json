@@ -1,1 +1,540 @@
-{"interpretations":[{"temporal_constraints":[{"activities":["f"],"id":"NonRep_f","type":"NonRepeating"},{"activities":["m","n"],"id":"Prec_m_n","type":"Precedence"},{"activities":["e"],"id":"NonRep_e","type":"NonRepeating"},{"activities":["d"],"id":"NonRep_d","type":"NonRepeating"},{"activities":["n","o"],"id":"Prec_n_o","type":"Precedence"},{"activities":["c"],"id":"NonRep_c","type":"NonRepeating"},{"activities":["k","l"],"id":"Resp_k_l","type":"Response"},{"activities":["b"],"id":"NonRep_b","type":"NonRepeating"},{"activities":["k","l"],"id":"Prec_k_l","type":"Precedence"},{"activities":["a"],"id":"NonRep_a","type":"NonRepeating"},{"activities":["m","n"],"id":"Resp_m_n","type":"Response"},{"activities":["n"],"id":"NonRep_n","type":"NonRepeating"},{"activities":["i","j"],"id":"Prec_i_j","type":"Precedence"},{"activities":["m"],"id":"NonRep_m","type":"NonRepeating"},{"activities":["l"],"id":"NonRep_l","type":"NonRepeating"},{"activities":["f","h"],"id":"Resp_f_h","type":"Response"},{"activities":["k"],"id":"NonRep_k","type":"NonRepeating"},{"activities":["i","k"],"id":"Prec_i_k","type":"Precedence"},{"activities":["j"],"id":"NonRep_j","type":"NonRepeating"},{"activities":["i","k"],"id":"Resp_i_k","type":"Response"},{"activities":["i"],"id":"NonRep_i","type":"NonRepeating"},{"activities":["f","g"],"id":"NoCoOc_f_g","type":"NonCoOccurrence"},{"activities":["f","h"],"id":"Prec_f_h","type":"Precedence"},{"activities":["h"],"id":"NonRep_h","type":"NonRepeating"},{"activities":["g"],"id":"NonRep_g","type":"NonRepeating"},{"activities":["i","j"],"id":"Resp_i_j","type":"Response"},{"activities":["e","f"],"id":"Prec_e_f","type":"Precedence"},{"activities":["e","g"],"id":"Prec_e_g","type":"Precedence"},{"activities":["c","d"],"id":"Prec_c_d","type":"Precedence"},{"activities":["d","e"],"id":"Prec_d_e","type":"Precedence"},{"activities":["e","f","g"],"id":"Resp_e_f_g","type":"Response"},{"activities":["o","p"],"id":"Resp_o_p","type":"Response"},{"activities":["c"],"id":"Mand_c","type":"Mandatory"},{"activities":["b"],"id":"Mand_b","type":"Mandatory"},{"activities":["a"],"id":"Mand_a","type":"Mandatory"},{"activities":["d","e"],"id":"Resp_d_e","type":"Response"},{"activities":["r"],"id":"Mand_r","type":"Mandatory"},{"activities":["c","d"],"id":"Resp_c_d","type":"Response"},{"activities":["r"],"id":"NonRep_r","type":"NonRepeating"},{"activities":["q"],"id":"NonRep_q","type":"NonRepeating"},{"activities":["p"],"id":"NonRep_p","type":"NonRepeating"},{"activities":["o"],"id":"NonRep_o","type":"NonRepeating"},{"activities":["i"],"id":"Mand_i","type":"Mandatory"},{"activities":["n","q"],"id":"Prec_n_q","type":"Precedence"},{"activities":["o","p"],"id":"Prec_o_p","type":"Precedence"},{"activities":["o","q"],"id":"NoCoOc_o_q","type":"NonCoOccurrence"},{"activities":["n","o","q"],"id":"Resp_n_o_q","type":"Response"}],"scope_tree":{"children":[{"activities":["a","b"],"id":"S_1","type":"Leaf"},{"activities":["c","d","e","f","g","h"],"id":"S_2","type":"Leaf"},{"activities":["i","j","k","l"],"id":"S_3","type":"Leaf"},{"activities":["m","n","o","p","q","r"],"id":"S_4","type":"Leaf"}],"id":"S_root","type":"Sequential"},"fragments":[{"start":0,"end":0,"text":"compiled travel request","id":"a","type":"Activity"},{"start":0,"end":0,"text":"submitted travel request","id":"b","type":"Activity"},{"start":0,"end":0,"text":"selected by system","id":"c","type":"Activity"},{"start":0,"end":0,"text":"sent to financial acc.","id":"d","type":"Activity"},{"start":0,"end":0,"text":"assess","id":"e","type":"Activity"},{"start":0,"end":0,"text":"approved","id":"f","type":"Activity"},{"start":0,"end":0,"text":"not approved","id":"g","type":"Activity"},{"start":0,"end":0,"text":"assign","id":"h","type":"Activity"},{"start":0,"end":0,"text":"changes to accepted","id":"i","type":"Activity"},{"start":0,"end":0,"text":"employee leaves","id":"j","type":"Activity"},{"start":0,"end":0,"text":"trop completed","id":"k","type":"Activity"},{"start":0,"end":0,"text":"submit reimbursement form","id":"l","type":"Activity"},{"start":0,"end":0,"text":"changes to complete","id":"m","type":"Activity"},{"start":0,"end":0,"text":"analyze form","id":"n","type":"Activity"},{"start":0,"end":0,"text":"spending limit not exceeded","id":"o","type":"Activity"},{"start":0,"end":0,"text":"approve","id":"p","type":"Activity"},{"start":0,"end":0,"text":"rejected","id":"q","type":"Activity"},{"start":0,"end":0,"text":"log","id":"r","type":"Activity"}],"fragment_relations":[]}]}
+{
+  "interpretations": [
+    {
+      "temporal_constraints": [
+        {
+          "activities": [
+            "f"
+          ],
+          "id": "NonRep_f",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "m",
+            "n"
+          ],
+          "id": "Prec_m_n",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "e"
+          ],
+          "id": "NonRep_e",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "d"
+          ],
+          "id": "NonRep_d",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "n",
+            "o"
+          ],
+          "id": "Prec_n_o",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "c"
+          ],
+          "id": "NonRep_c",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "k",
+            "l"
+          ],
+          "id": "Resp_k_l",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "b"
+          ],
+          "id": "NonRep_b",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "k",
+            "l"
+          ],
+          "id": "Prec_k_l",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "a"
+          ],
+          "id": "NonRep_a",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "m",
+            "n"
+          ],
+          "id": "Resp_m_n",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "n"
+          ],
+          "id": "NonRep_n",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "i",
+            "j"
+          ],
+          "id": "Prec_i_j",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "m"
+          ],
+          "id": "NonRep_m",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "l"
+          ],
+          "id": "NonRep_l",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "f",
+            "h"
+          ],
+          "id": "Resp_f_h",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "k"
+          ],
+          "id": "NonRep_k",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "i",
+            "k"
+          ],
+          "id": "Prec_i_k",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "j"
+          ],
+          "id": "NonRep_j",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "i",
+            "k"
+          ],
+          "id": "Resp_i_k",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "i"
+          ],
+          "id": "NonRep_i",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "f",
+            "g"
+          ],
+          "id": "NoCoOc_f_g",
+          "type": "NonCoOccurrence"
+        },
+        {
+          "activities": [
+            "f",
+            "h"
+          ],
+          "id": "Prec_f_h",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "h"
+          ],
+          "id": "NonRep_h",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "g"
+          ],
+          "id": "NonRep_g",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "i",
+            "j"
+          ],
+          "id": "Resp_i_j",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "e",
+            "f"
+          ],
+          "id": "Prec_e_f",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "e",
+            "g"
+          ],
+          "id": "Prec_e_g",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "c",
+            "d"
+          ],
+          "id": "Prec_c_d",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "d",
+            "e"
+          ],
+          "id": "Prec_d_e",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "e",
+            "f",
+            "g"
+          ],
+          "id": "Resp_e_f_g",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "o",
+            "p"
+          ],
+          "id": "Resp_o_p",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "c"
+          ],
+          "id": "Mand_c",
+          "type": "Mandatory"
+        },
+        {
+          "activities": [
+            "b"
+          ],
+          "id": "Mand_b",
+          "type": "Mandatory"
+        },
+        {
+          "activities": [
+            "a"
+          ],
+          "id": "Mand_a",
+          "type": "Mandatory"
+        },
+        {
+          "activities": [
+            "d",
+            "e"
+          ],
+          "id": "Resp_d_e",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "r"
+          ],
+          "id": "Mand_r",
+          "type": "Mandatory"
+        },
+        {
+          "activities": [
+            "c",
+            "d"
+          ],
+          "id": "Resp_c_d",
+          "type": "Response"
+        },
+        {
+          "activities": [
+            "r"
+          ],
+          "id": "NonRep_r",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "q"
+          ],
+          "id": "NonRep_q",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "p"
+          ],
+          "id": "NonRep_p",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "o"
+          ],
+          "id": "NonRep_o",
+          "type": "NonRepeating"
+        },
+        {
+          "activities": [
+            "i"
+          ],
+          "id": "Mand_i",
+          "type": "Mandatory"
+        },
+        {
+          "activities": [
+            "n",
+            "q"
+          ],
+          "id": "Prec_n_q",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "o",
+            "p"
+          ],
+          "id": "Prec_o_p",
+          "type": "Precedence"
+        },
+        {
+          "activities": [
+            "o",
+            "q"
+          ],
+          "id": "NoCoOc_o_q",
+          "type": "NonCoOccurrence"
+        },
+        {
+          "activities": [
+            "n",
+            "o",
+            "q"
+          ],
+          "id": "Resp_n_o_q",
+          "type": "Response"
+        }
+      ],
+      "scope_tree": {
+        "children": [
+          {
+            "activities": [
+              "a",
+              "b"
+            ],
+            "id": "S_1",
+            "type": "Leaf"
+          },
+          {
+            "activities": [
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "h"
+            ],
+            "id": "S_2",
+            "type": "Leaf"
+          },
+          {
+            "activities": [
+              "i",
+              "j",
+              "k",
+              "l"
+            ],
+            "id": "S_3",
+            "type": "Leaf"
+          },
+          {
+            "activities": [
+              "m",
+              "n",
+              "o",
+              "p",
+              "q",
+              "r"
+            ],
+            "id": "S_4",
+            "type": "Leaf"
+          }
+        ],
+        "id": "S_root",
+        "type": "Sequential"
+      },
+      "fragments": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "compiled travel request",
+          "id": "a",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "submitted travel request",
+          "id": "b",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "selected by system",
+          "id": "c",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "sent to financial acc.",
+          "id": "d",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "assess",
+          "id": "e",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "approved",
+          "id": "f",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "not approved",
+          "id": "g",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "assign",
+          "id": "h",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "changes to accepted",
+          "id": "i",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "employee leaves",
+          "id": "j",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "trop completed",
+          "id": "k",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "submit reimbursement form",
+          "id": "l",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "changes to complete",
+          "id": "m",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "analyze form",
+          "id": "n",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "spending limit not exceeded",
+          "id": "o",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "approve",
+          "id": "p",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "rejected",
+          "id": "q",
+          "type": "Activity"
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "log",
+          "id": "r",
+          "type": "Activity"
+        }
+      ],
+      "fragment_relations": []
+    }
+  ]
+}
